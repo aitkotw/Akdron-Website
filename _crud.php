@@ -65,10 +65,10 @@ function addEmailToList($email, $conn, $fileAddress){
 }
 
 function connection(){
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "test";
+    $servername = DATABASE_HOST;
+    $username = DATABASE_USER;
+    $password = DATABASE_PASS;
+    $dbname = DATABASE_Name;
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
