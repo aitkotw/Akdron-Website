@@ -77,11 +77,19 @@ include 'constants.php';
 		</header>
 		<!-- //header -->
 
+		<!-- banner -->
+		<div class="banner_temps-amklspvt-2">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="index.php" class="font-weight-bold">Home</a></li>
+				<li class="breadcrumb-item" aria-current="page">Contact Us</li>
+			</ol>
+		</div>
+		<!-- //banner -->
         </div>
 <!-- //main banner -->
 
 	<!-- contact -->
-	<div class="contact py-5" id="contact">
+	<div class="contact bg-li-new py-5" id="contact">
 		<div class="container pb-xl-5 pb-lg-3">
 			<div class="row">
 				<div class="col-lg-6">
@@ -90,7 +98,33 @@ include 'constants.php';
 				<div class="col-lg-6 mt-lg-0 mt-5">
 					<!-- contact form grid -->
 					<div class="contact-top1">
-						<form action="#" method="post" class="contact-amk-tems-do">
+
+					<div class = "ml-3 bg-li p-3 mb-5">
+							<div class = "m-1">
+								<span class="iwt" style = "display:block;">
+									<i class="fas fa-mobile-alt"></i>
+									<span> &nbsp;&nbsp; : &nbsp;<a href="tel:+919769063294">+91 9769063294</a></span>
+								</span>
+							</div>
+
+							<div class = "m-1">
+								<span class="iwt" style = "display:block;">
+									<i class="fas fa-envelope"></i>
+									<span> &nbsp; : &nbsp;<a href="mailto:support@akdron.com">support@akdron.com</a></span>
+								</span>
+							</div>
+
+							<div class = "m-1">
+								<span class="iwt" style = "display:block;">
+									<i class="fas fa-map-marker-alt"></i>
+									<span> &nbsp;&nbsp : &nbsp;Shop No 98, H Avenue, Bldg No. 20. Global City Virar (W)</a></span>
+								</span>
+							</div>
+
+						</div>
+						<hr>
+
+						<form action="_crud.php" method="post" class="contact-amk-tems-do">
 							<div class="form-group">
 								<div class="row">
 									<div class="col-md-6">
@@ -103,7 +137,7 @@ include 'constants.php';
 										<label>
 											Last name
 										</label>
-										<input class="form-control" type="text" placeholder="John" name="name" required="">
+										<input class="form-control" type="text" placeholder="John" name="surname" required="">
 									</div>
 								</div>
 							</div>
@@ -113,7 +147,7 @@ include 'constants.php';
 										<label>
 											Mobile
 										</label>
-										<input class="form-control" type="text" placeholder="xxxx xxxx xx" name="mobile" required="">
+										<input class="form-control" type="phone" placeholder="xxxx xxxx xx" title="10 Digit Numbers" pattern=".{10,10}" name="phone" required="">
 									</div>
 									<div class="col-md-6 mt-md-0 mt-4">
 										<label>
@@ -129,16 +163,19 @@ include 'constants.php';
 										<label>
 											Your message
 										</label>
-										<textarea placeholder="Add your Description here" name="message" class="form-control"></textarea>
+										<textarea placeholder="Add your Message here" name="message" class="form-control" required=""></textarea>
 									</div>
 								</div>
 							</div>
 							<div class="row mt-3">
 								<div class="col-md-12">
+									<input type="hidden" id="contact" name="formType" value="contact">
 									<button type="submit" class="btn btn-cont-temps-amk btn-block mt-4">Send</button>
 								</div>
 							</div>
 						</form>
+
+						</div>
 					</div>
 					<!-- //contact form grid ends here -->
 				</div>
@@ -229,6 +266,14 @@ include 'constants.php';
 				echo '<script>$(document).ready(function(){$("#myModal").modal();}); </script>';
 			} else if($_GET['mode'] === 'emailExist'){
 				$msg = "<strong>Warning!!</strong> You have already subscribed to our news letters";
+				showFailModel($msg);
+				echo '<script>$(document).ready(function(){$("#myModal").modal();});</script>';
+			} else if($_GET['mode'] === 'conSuccess'){
+				$msg = "<strong>Success!!</strong> We've recieved your query and we will contact you soon, subscribe to our newsletters to stay updated.";
+				showSuccessModel($msg);
+				echo '<script>$(document).ready(function(){$("#myModal").modal();});</script>';
+			} else if($_GET['mode'] === 'conFail'){
+				$msg = "<strong>Fail!!</strong> Something went wrong, please call us on phone number provided.";
 				showFailModel($msg);
 				echo '<script>$(document).ready(function(){$("#myModal").modal();});</script>';
 			}
