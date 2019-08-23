@@ -6,7 +6,7 @@ include 'constants.php';
 <html lang="en">
 
 <head>
-	<title>Akdron Technology | Home</title>
+	<title><?php echo TITLE; ?></title>
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8" />
@@ -95,7 +95,7 @@ include 'constants.php';
 					<h6>Story About Us</h6>
 					<h3 class="mt-2 mb-3">Welcome to Akdron</h3>
 					<p>We are group of people gathered togather to provide Bussiness services to small and medium scale bussiness organizations. our aim is to making bussiness run fluently without interupting it's flow for growth. </p>
-					<p class="mt-2">We provide two type of service calssified by it's nature - Tech Oriented and Service Oriented. We'll help you grow your bussiness by means of tech integration with your product/service delivery.</p>
+					<p class="mt-2">We provide website development and Marketing services to help grow your business. Our goal is to provide responsive website develpment along with SEO optimization and Digital Marketing.</p>
 					<!-- <a href="about.php" class="btn button-style mt-sm-5 mt-4">Read More</a> -->
 				</div>
 				<div class="col-lg-7 welcome-right text-center mt-lg-0 mt-5">
@@ -129,7 +129,7 @@ include 'constants.php';
 							</div>
 							<div class="col-md-9 col-10 text-left services-grid">
 								<h4>Optimization</h4>
-								<p>We optimize websites in order to minimize load time and better experience</p>
+								<p>SEO friendly websites for better performance and user experiance.</p>
 							</div>
 						</div>
 					</div>
@@ -142,7 +142,7 @@ include 'constants.php';
 							</div>
 							<div class="col-md-9 col-10 text-left services-grid">
 								<h4>Responsive</h4>
-								<p>Our websites are responsive in nature and can run soothly on any device.</p>
+								<p>Responsive website design for smooth opration on any Device.</p>
 							</div>
 						</div>
 					</div>
@@ -177,7 +177,7 @@ include 'constants.php';
 							</div>
 							<div class="col-md-9 col-10 text-left services-grid">
 								<h4>Economical</h4>
-								<p>Our products are cost-effective and affordable without compromising any quality.</p>
+								<p>Our products are cost-effective and affordable without compromising much quality.</p>
 							</div>
 						</div>
 					</div>

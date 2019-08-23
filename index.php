@@ -6,7 +6,7 @@ include 'constants.php';
 <html lang="en">
 
 <head>
-	<title>Akdron Technology | Home</title>
+	<title><?php echo TITLE; ?></title>
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8" />
@@ -87,12 +87,12 @@ include 'constants.php';
 	<div class="what bg-li-new py-5" id="what">
 		<div class="container py-xl-5 py-lg-3">
 		<h3 class="tittle text-center font-weight-bold">Our Objective</h3>
-			<p class="sub-tittle text-center mt-3 mb-sm-5 mb-4">We provide range of services classified on their nature. Our goal is to maximize productivity while utilizing provided resourses.</p>
+			<p class="sub-tittle text-center mt-3 mb-sm-5 mb-4">We provide Website Development, Website Design, eCommerce Website Development, Digital Marketing, Mobile Application Development and many other services to small and medium scale business organizations.</p>
 			<div class="row about-bottom-temps-amkl text-center mt-4">
 				<div class="col-lg-4 about-grid">
 					<div class="about-grid-main">
 						<img src="images/img1.png" alt="" class="img-fluid">
-						<h4 class="my-4">Creative Design</h4>
+						<h4 class="my-4">Website Design</h4>
 						<p>Responsive in nature websites with effective user interface to present full potential of your business. </p>
 						<!-- <a href="about.php" class="button-temps-amkls btn mt-sm-5 mt-4">Read More</a> -->
 					</div>
@@ -175,7 +175,7 @@ include 'constants.php';
 					<div class="card">
 					<img class="card-img-top" src="images/demoWeb/interior.png" alt="Card image" style="width:100%; height: 270px">
 						<div class="card-body" style = "padding:0px;">
-							<h5 class="card-title" style = "padding:13px; margin-bottom:0px;"><a href="asset/websites/interior/1/index.html" target="_blank"	 style="padding: 0px;margin-top: 0px !important;" class="button-temps-amkls btn mt-sm-5 mt-2">Interior Design</a></h5>
+							<h5 class="card-title" style = "padding:13px; margin-bottom:0px;"><a href="asset/websites/interior/1/index.html" target="_blank"	 style="padding: 0px;margin-top: 0px !important;" class="button-temps-amkls btn mt-sm-5 mt-2">Interior Design Website</a></h5>
 						</div>
 					</div>
 				</div>
@@ -184,7 +184,7 @@ include 'constants.php';
 					<div class="card">
 					<img class="card-img-top" src="images/demoWeb/barber.png" alt="Card image" style="width:100%; height: 270px">
 						<div class="card-body" style = "padding:0px;">
-							<h5 class="card-title" style = "padding:13px; margin-bottom:0px;"><a href="asset/websites/barber/1/index.html" target="_blank"	 style="padding: 0px;margin-top: 0px !important;" class="button-temps-amkls btn mt-sm-5 mt-2">Hair stylist</a></h5>
+							<h5 class="card-title" style = "padding:13px; margin-bottom:0px;"><a href="asset/websites/barber/1/index.html" target="_blank"	 style="padding: 0px;margin-top: 0px !important;" class="button-temps-amkls btn mt-sm-5 mt-2">Hair stylist Website</a></h5>
 						</div>
 					</div>
 				</div>
@@ -193,7 +193,7 @@ include 'constants.php';
 					<div class="card">
 					<img class="card-img-top" src="images/demoWeb/dance.png" alt="Card image" style="width:100%; height: 270px">
 						<div class="card-body" style = "padding:0px;">
-							<h5 class="card-title" style = "padding:13px; margin-bottom:0px;"><a href="asset/websites/talent/1/index.html" target="_blank"	 style="padding: 0px;margin-top: 0px !important;" class="button-temps-amkls btn mt-sm-5 mt-2">Dance</a></h5>
+							<h5 class="card-title" style = "padding:13px; margin-bottom:0px;"><a href="asset/websites/talent/1/index.html" target="_blank"	 style="padding: 0px;margin-top: 0px !important;" class="button-temps-amkls btn mt-sm-5 mt-2">Dance Website</a></h5>
 						</div>
 					</div>
 				</div>
@@ -202,7 +202,7 @@ include 'constants.php';
 					<div class="card">
 					<img class="card-img-top" src="images/demoWeb/hospital.png" alt="Card image" style="width:100%; height: 270px">
 						<div class="card-body" style = "padding:0px;">
-							<h5 class="card-title" style = "padding:13px; margin-bottom:0px;"><a href="asset/websites/medical/1/index.html" target="_blank"	 style="padding: 0px;margin-top: 0px !important;" class="button-temps-amkls btn mt-sm-5 mt-2">Healthcare</a></h5>
+							<h5 class="card-title" style = "padding:13px; margin-bottom:0px;"><a href="asset/websites/medical/1/index.html" target="_blank"	 style="padding: 0px;margin-top: 0px !important;" class="button-temps-amkls btn mt-sm-5 mt-2">Healthcare Website</a></h5>
 						</div>
 					</div>
 				</div>
@@ -211,7 +211,7 @@ include 'constants.php';
 					<div class="card">
 					<img class="card-img-top" src="images/demoWeb/gym.png" alt="Card image" style="width:100%; height: 270px">
 						<div class="card-body" style = "padding:0px;">
-							<h5 class="card-title" style = "padding:13px; margin-bottom:0px;"><a href="asset/websites/gym/1/index.html" target="_blank"	 style="padding: 0px;margin-top: 0px !important;" class="button-temps-amkls btn mt-sm-5 mt-2">Gym</a></h5>
+							<h5 class="card-title" style = "padding:13px; margin-bottom:0px;"><a href="asset/websites/gym/1/index.html" target="_blank"	 style="padding: 0px;margin-top: 0px !important;" class="button-temps-amkls btn mt-sm-5 mt-2">Gym Website</a></h5>
 						</div>
 					</div>
 				</div>
@@ -220,7 +220,7 @@ include 'constants.php';
 					<div class="card">
 					<img class="card-img-top" src="images/demoWeb/food.png" alt="Card image" style="width:100%; height: 270px">
 						<div class="card-body" style = "padding:0px;">
-							<h5 class="card-title" style = "padding:13px; margin-bottom:0px;"><a href="asset/websites/food/1/index.html" target="_blank"	 style="padding: 0px;margin-top: 0px !important;" class="button-temps-amkls btn mt-sm-5 mt-2">Food and Eatery</a></h5>
+							<h5 class="card-title" style = "padding:13px; margin-bottom:0px;"><a href="asset/websites/food/1/index.html" target="_blank"	 style="padding: 0px;margin-top: 0px !important;" class="button-temps-amkls btn mt-sm-5 mt-2">Food and Eatery Website</a></h5>
 						</div>
 					</div>
 				</div>
@@ -229,7 +229,7 @@ include 'constants.php';
 					<div class="card">
 					<img class="card-img-top" src="images/demoWeb/shop.png" alt="Card image" style="width:100%; height: 270px">
 						<div class="card-body" style = "padding:0px;">
-							<h5 class="card-title" style = "padding:13px; margin-bottom:0px;"><a href="asset/websites/eCommerce/1/index.html" target="_blank"	 style="padding: 0px;margin-top: 0px !important;" class="button-temps-amkls btn mt-sm-5 mt-2">eCommerce</a></h5>
+							<h5 class="card-title" style = "padding:13px; margin-bottom:0px;"><a href="asset/websites/eCommerce/1/index.html" target="_blank"	 style="padding: 0px;margin-top: 0px !important;" class="button-temps-amkls btn mt-sm-5 mt-2">eCommerce Website</a></h5>
 						</div>
 					</div>
 				</div>
@@ -238,7 +238,7 @@ include 'constants.php';
 					<div class="card">
 					<img class="card-img-top" src="images/demoWeb/realstate.png" alt="Card image" style="width:100%; height: 270px">
 						<div class="card-body" style = "padding:0px;">
-							<h5 class="card-title" style = "padding:13px; margin-bottom:0px;"><a href="asset/websites/realstate/1/index.html" target="_blank"	 style="padding: 0px;margin-top: 0px !important;" class="button-temps-amkls btn mt-sm-5 mt-2">Real State</a></h5>
+							<h5 class="card-title" style = "padding:13px; margin-bottom:0px;"><a href="asset/websites/realstate/1/index.html" target="_blank"	 style="padding: 0px;margin-top: 0px !important;" class="button-temps-amkls btn mt-sm-5 mt-2">Real State Website</a></h5>
 						</div>
 					</div>
 				</div>
@@ -247,7 +247,7 @@ include 'constants.php';
 					<div class="card">
 					<img class="card-img-top" src="images/demoWeb/wedding.png" alt="Card image" style="width:100%; height: 270px">
 						<div class="card-body" style = "padding:0px;">
-							<h5 class="card-title" style = "padding:13px; margin-bottom:0px;"><a href="asset/websites/barber/1/index.html" target="_blank"	 style="padding: 0px;margin-top: 0px !important;" class="button-temps-amkls btn mt-sm-5 mt-2">Wedding Planner</a></h5>
+							<h5 class="card-title" style = "padding:13px; margin-bottom:0px;"><a href="asset/websites/barber/1/index.html" target="_blank"	 style="padding: 0px;margin-top: 0px !important;" class="button-temps-amkls btn mt-sm-5 mt-2">Wedding Planner Website</a></h5>
 						</div>
 					</div>
 				</div>
