@@ -73,4 +73,5 @@
 		<!-- //header -->
 
 </body>
+<?php echo googleTracking; ?>
 </html>

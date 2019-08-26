@@ -318,4 +318,5 @@ include 'constants.php';
 	?>
 
 </body>
+<?php echo googleTracking; ?>
 </html>
